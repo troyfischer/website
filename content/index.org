@@ -1,11 +1,40 @@
 #+TITLE: Troy Fischer's Webpage
 #+AUTHOR: Troy Fischer
 #+DESCRIPTION: Troy Fischer's Blog
+#+SETUPFILE: themes/org/troy-story.setup
 #+INCLUDE: header.org
 
 
 * Welcome
 Welcome to the site. The site is developed using [[https://www.gnu.org/software/emacs/][emacs]] and [[https://orgmode.org/][org-mode]]. The layout
 is largely inspired by [[https://github.com/tecosaur/][tecosaur]] and the theme is based on [[https://www.nordtheme.com/][nord]].
+** testing toc
+lorem ipsm
+lorem ipsm
+lorem ipsm
+lorem ipsm
+lorem ipsm
+lorem ipsm
+lorem ipsm
+lorem ipsm
+lorem ipsm
+lorem ipsm
+lorem ipsm
+lorem ipsm
+*** another test
+lorem ipsm
+lorem ipsm
+lorem ipsm
+lorem ipsm
+lorem ipsm
+lorem ipsm
+lorem ipsm
+lorem ipsm
+lorem ipsm
+lorem ipsm
+lorem ipsm
+lorem ipsm
 * About
 [[file:about/about_me.org][About me]]
+* Neetcode
+[[file:neetcode/neetcode.org][Neetcode Progress]]

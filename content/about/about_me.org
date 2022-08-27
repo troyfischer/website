@@ -1,6 +1,7 @@
 #+title: About Me
 #+setupfile: ../themes/org/troy-story.setup
 #+include: ../header.org
+#+options: num:nil ^:{}
 
 * Welcome
 Hi I'm Troy Fischer and welcome to my site!

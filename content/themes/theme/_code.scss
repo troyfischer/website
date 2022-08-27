@@ -1,10 +1,5 @@
 // Code highlighting
 
-pre {
-  background-color: $back-light;
-  overflow: visible !important;
-}
-
 pre.src, pre.example {
   @include left-line();
   font-family: $code-font;
@@ -51,6 +46,7 @@ kbd {
     display: inline-block;
     padding: 0.25em 0.35em;
     font: 80% $code-font;
+    font-weight: inherit;
     line-height: normal;
     line-height: 80%;
     color: $text-gray;
@@ -76,7 +72,7 @@ details.code {
   position: relative;
   summary {
     position: relative;
-    left: -3px;
+    left: -2.5px;
     padding-left: 10px;
     padding-bottom: 4px;
     margin-left: -10px;
