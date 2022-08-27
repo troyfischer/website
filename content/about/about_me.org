@@ -1,0 +1,15 @@
+#+title: About Me
+#+setupfile: ../themes/org/troy-story.setup
+#+include: ../header.org
+
+* Welcome
+Hi I'm Troy Fischer and welcome to my site!
+* A Few Details
+I attended the University of Florida and received my B.S. in Computer Science
+in 2019. I currently work for [[https://www.capitalone.com/][Capital One]]. My interests include software
+engineering, financial markets, and yoga. I intend to use this site as a
+general purpose blog. Thanks for taking a look!
+* Contact Me
+- Email: [[mailto:troytfischer@gmail.com][troytfischer@gmail.com]]
+- Github: [[https:github.com/troyfischer][github.com/troyfischer]]
+- LinkedIn: [[https://www.linkedin.com/in/troy-fischer-805661186/][linkedin.com/troy-fischer]]

@@ -1,0 +1,54 @@
+#+TITLE: What is Quantitative Easing
+#+AUTHOR: Troy Fischer
+#+SETUPFILE: ../../themes/org/troy-story.setup
+#+INCLUDE: ../../header.org
+#+OPTIONS: num:nil ^:{}
+#+PROPERTY: header-args :exports both
+
+* What is Quantitative Easing?
+Most, especially in the realm of main stream finance, consider quantitative easing to be "money printing". This simply isn't true.
+
+Let's talk about why:
+If QE caused money to be created in the real economy we would expect interest rates to rise.
+
+The first QE was announced in November 2008. Let's see what happened to interest rates
+
+#+begin_src python :results file :var f="images/first_qe_plot.png"
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
+import csv
+import datetime as dt
+
+with open("data/10Y_yield_2006-2011.csv", "r") as csvfile:
+    reader = csv.reader(csvfile, delimiter=",")
+    dates = []
+    rates = []
+    for row in reader:
+        if row[1] != '.':
+            dates.append(row[0])
+            rates.append(row[1])
+
+dates = dates[1:]
+rates = rates[1:]
+
+dates = [dt.datetime.strptime(d, "%Y-%m-%d").date() for d in dates]
+rates = [float(rate) for rate in rates]
+print(dates)
+
+plt.gca().xaxis.set_major_formatter(mdates.DateFormatter("%Y-%m-%d"))
+plt.gca().xaxis.set_major_locator(mdates.DayLocator(interval=150))
+plt.ylim(0.0,7.0)
+
+plt.plot(dates, rates)
+plt.gcf().autofmt_xdate()
+
+plt.title("10Y Rate 2006-2011")
+plt.xlabel("Date")
+plt.ylabel("Rate")
+
+plt.savefig(f)
+return f
+#+end_src
+
+#+RESULTS:
+[[file:images/first_qe_plot.png]]

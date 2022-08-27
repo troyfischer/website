@@ -1,0 +1,9 @@
+#+MACRO: timezone (eval (substring (shell-command-to-string "date +%Z") 0 -1))
+#+DATE: @@html:@@@@latex:\\\Large\bfseries@@ {{{modification-time(%Y-%m-%d, t)}}} @@latex:\\\normalsize\mdseries@@{{{modification-time(%H:%M, t)}}} @@latex:\acr{\lowercase{@@{{{timezone}}}
+#+SETUPFILE: themes/org/troy-story.setup
+#+OPTIONS: num:nil ^:{}
+
+@@html:<div id="navigation">@@ [[file:index.org][Home]] @@html:<i class="fa-solid fa-house"></i>@@ | @@html:<a target="_blank" href="https://www.linkedin.com/in/troy-fischer-805661186/">LinkedIn</a>@@ @@html:<i class="fa-brands fa-linkedin-in"></i>@@ | @@html:<a target="_blank" href="https://github.com/troyfischer">Github</a>@@ @@html:<i class="fa-brands fa-github"></i>@@ | [[file:about/about_me.org][About]] @@html: <i class="fa-solid fa-address-card"></i>@@ | [[mailto:troytfischer@gmail.com][Contact Me]] @@html:<i class="fa-solid fa-envelope"></i>@@ @@html:</div>@@
+
+
+#+TOC: headlines 2

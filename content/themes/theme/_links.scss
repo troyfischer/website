@@ -1,0 +1,93 @@
+// Link and buttons
+
+a {
+  color: inherit;
+  @include link-underline($back-white, $text-dark);
+  &:hover {
+    color: $nord15;
+  }
+}
+
+#content .page-intro p a,
+#footnotes a {
+  @include link-underline($back-white, $text-gray);
+
+  &:hover {
+    @include link-underline($back-light, $text-gray);
+  }
+}
+
+.btn {
+  @include button(1px, 14px, 7px);
+  cursor: pointer;
+}
+
+.btn.disabled {
+  color: $text-light;
+  &:hover {
+    cursor: default;
+  }
+}
+
+.btn.small {
+  @include button(1px, 12px, 3px);
+  padding-right: 9px;
+  padding-left: 9px;
+}
+
+.btn.highlight {
+  text-shadow: none;
+  text-decoration: none;
+  color: $text-dark;
+  background-color: yellow;
+}
+
+.btn.primary {
+  text-shadow: none;
+  text-decoration: none;
+  color: $back-white;
+  background-color: $accent;
+
+  &:hover {
+    background-color: $back-light;
+    background-image: none;
+    color: $text-dark;
+  }
+}
+
+.image-link, .image-link:hover {
+  @include link-reset();
+}
+
+div.link-preview {
+  border: 1px solid $back-medium;
+  border-radius: 0.5em;
+  overflow: hidden;
+  position: relative;
+  max-height: 5em;
+  padding-left: 0.5em;
+  a {
+    color: initial;
+    text-decoration: none;
+  }
+  img {
+    border-right: 1px solid $back-medium;
+    float: left;
+    height: 5em;
+    margin-left: -0.5em;
+    margin-right: 0.5em;
+  }
+  p {
+    margin: 0;
+    font-size: 10pt;
+    b {
+      font-size: 11pt;
+    }
+  }
+  small {
+    float: right;
+    font-family: sans;
+    color: $text-light;
+    margin: 0.45em 0.6em;
+  }
+}
