@@ -4,4 +4,4 @@
 [[file:index.org][Home]] @@html:<i class="fa-solid fa-house"></i>@@ | @@html:<a target="_blank" href="https://www.linkedin.com/in/troy-fischer-805661186/">LinkedIn</a>@@ @@html:<i class="fa-brands fa-linkedin-in"></i>@@ | @@html:<a target="_blank" href="https://github.com/troyfischer">Github</a>@@ @@html:<i class="fa-brands fa-github"></i>@@ | [[file:about/about_me.org][About]] @@html: <i class="fa-solid fa-address-card"></i>@@ | [[mailto:troytfischer@gmail.com][Contact Me]] @@html:<i class="fa-solid fa-envelope"></i>@@
 #+html: </div>
 
-#+TOC: headlines 2
+#+TOC: headlines 1
