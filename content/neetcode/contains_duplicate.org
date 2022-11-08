@@ -1,7 +1,9 @@
-#+title: [[https://leetcode.com/problems/contains-duplicate/][Contains Duplicate]]
+#+title: Contains Duplicate
 #+author: Troy Fischer
 #+setupfile: ../themes/org/troy-story.setup
 #+include: ../header.org
+
+Problem: [[https://leetcode.com/problems/contains-duplicate/][Contains Duplicate]]
 
 * Thoughts
 Fairly simple question.

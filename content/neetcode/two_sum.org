@@ -1,0 +1,40 @@
+#+title: Two Sum
+#+author: Troy Fischer
+#+setupfile: ../themes/org/troy-story.setup
+#+include: ../header.org
+
+Problem: [[https://leetcode.com/problems/two-sum/][Two Sum]]
+
+* Thoughts
+Given a list of elements determine if two elements add up to some target.
+
+#+begin_example
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+#+end_example
+
+Possible to naively do this in =O(n^2)= time by starting at each element and traversing the rest of the list looking for a number that sums to the target.
+
+#+begin_src python
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        for i in range(len(nums)):
+            for j in range(i+1, len(nums)):
+                if nums[i] + nums[j] == target:
+                    return [i, j]
+#+end_src
+
+
+The better solution can be done in =O(n)= time and =O(n)= space. Use a dictionary to take the difference of the target and each element and map that to the index of the element. At the start of each iteration check if the current element is in the dictionary and if so return the proper indicies.
+
+#+begin_src python
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        diff_dict = dict()
+
+        for i in range(len(nums)):
+            if nums[i] in diff_dict:
+                return [diff_dict[nums[i]], i]
+            diff_dict[target - nums[i]] = i
+#+end_src

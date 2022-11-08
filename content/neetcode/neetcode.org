@@ -5,5 +5,10 @@
 
 Documentation of progress going through [[https://neetcode.io/][Neetcode.io]] 150.
 
+* Disclaimer
+By no means are these all of my original solutions. In many instances I will watch the solution video when I'm not making progress. The solutions I have here are often written from my point of view which may sound like I've solved it without external resources but that is solely to aid in my learning process.
 * Problems
-1. [[file:273.org][Contains Duplicate]]
+1. [[file:contains_duplicate.org][Contains Duplicate]]
+2. [[file:valid_anagram.org][Valid Anagrams]]
+3. [[file:two_sum.org][Two Sum]]
+4. [[file:group_anagrams.org][Group Anagrams]]

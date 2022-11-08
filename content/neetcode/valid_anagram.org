@@ -1,0 +1,22 @@
+#+title: Valid Anagram
+#+author: Troy Fischer
+#+setupfile: ../themes/org/troy-story.setup
+#+include: ../header.org
+
+Problem: [[https://leetcode.com/problems/valid-anagram/][Valid Anagram]]
+
+* Thoughts
+Multiple ways to do this one. The fastest should be =O(n)= time and =O(n)= space.
+
+Use a hash map to count the appearances of each item and if they're the same by the end then they're anagrams.
+
+#+begin_src python
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        from collections import Counter
+
+        c1 = Counter(s)
+        c2 = Counter(t)
+
+        return c1 == c2
+#+end_src

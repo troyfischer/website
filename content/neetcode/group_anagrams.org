@@ -1,0 +1,80 @@
+#+title: Group Anagrams
+#+author: Troy Fischer
+#+setupfile: ../themes/org/troy-story.setup
+#+include: ../header.org
+
+Problem: [[https://leetcode.com/problems/group-anagrams/][Group Anagrams]]
+
+* Question
+Given an array of strings ~strs~, group the anagrams together. You can return the answer in any order.
+
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+
+** Example 1
+#+begin_example
+Input: strs = ["eat","tea","tan","ate","nat","bat"]
+Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
+#+end_example
+** Example 2
+#+begin_example
+Input: strs = [""]
+Output: [[""]]
+#+end_example
+** Example 3
+#+begin_example
+Input: strs = ["a"]
+Output: [["a"]]
+#+end_example
+
+** Constraints
++ ~1 <= strs.length <= 104~
++ ~0 <= strs[i].length <= 100~
++ ~strs[i] consists of lowercase English letters~
+
+* Thoughts
+The optimal solution here is ~O(m*n)~ where ~m~ is the number of strings given and ~n~
+is the length of the string. The tricky part of this for me, at least in python,
+is that a dictionary cannot act as the key to another dictionary, so I cannot
+simply count the characters using the provided ~Counter~ class.
+
+The constraint, =strs[i] consists of lowercase English letters=, is very important
+to the solution because I know I have 26 potential character options in every
+string. I can represent a finite and orderly group of characters using a list in
+this case, where each index of the list maps to a character and the value at the
+index represents the number of times it occurred in the string. So getting the
+character count just involves incrementing the value currently stored at the index
+the character maps to. This list version of a character count can be used as the
+key to a dictionary as long as I convert it to a tuple, which is immutable, first.
+
+
+#+begin_src python :results output
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        from collections import defaultdict
+        res = defaultdict(list)
+        for s in strs:
+            count = [0] * 26
+            for c in s:
+                # normalize the index
+                index = ord(c) - ord('a')
+                count[index] += 1
+            # store the count
+            res[tuple(count)].append(s)
+        return list(res.values())
+#+end_src
+
+And again the solution is ~O(m*n)~ because I loop over all of the input strings
+(~m~) and then loop over all of the characters in the current input string (~n~).
+
+The less optimal solution here is to sort each string and use it as the key to
+the dictionary but that results in ~O(m*nlogn)~.
+
+#+begin_src python :results output
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        from collections import defaultdict
+        res = defaultdict(list)
+        for s in strs:
+            res[''.join(sorted(s))].append(s)
+        return list(res.values())
+#+end_src
