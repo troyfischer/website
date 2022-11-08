@@ -1,0 +1,15 @@
+#+title: Movies
+#+author: Troy Fischer
+#+setupfile: ./themes/org/troy-story.setup
+#+include: ./header.org
+
+I'm awful with watching movies due to my internet induced short attention span. This page is going over movies I've been watching.
+
+* 2001 A Space Odyssey
+Enjoyed it but needed some help additonal help from Reddit to fully analyze the story.
+* No Country For Old Men
+The ending is a change a pace from most movies that have a clearer conflict/resolution style ending.
+* Taxi Driver
+Not my favorite but interesting enough to watch the entire thing.
+* Get Out
+Wow it was good.

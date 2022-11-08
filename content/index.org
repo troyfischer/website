@@ -9,5 +9,9 @@
 It's like [[https://toystory.disney.com/][toy story]] but not... welcome to the site. It's entirely developed using [[https://orgmode.org/][org-mode]].
 * About
 + [[file:about/about_me.org][About me]]
-* Neetcode
+* Movies
++ [[file:movies.org][What I'm Watching]]
+* Books
++ [[file:books.org][What I'm Reading]]
+* Leetcode
 + [[file:neetcode/neetcode.org][Neetcode Progress]]

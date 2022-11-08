@@ -1,0 +1,19 @@
+#+title: Books
+#+author: Troy Fischer
+#+setupfile: ./themes/org/troy-story.setup
+#+include: ./header.org
+
+Keeping track of the books I've read recently.
+
+* I Know Why The Caged Bird Sings
+Did not know this was an autobiography prior to picking it up.
+* Player Piano
+Currently my favorite Vonnegut book.
+* Loveless
+Interesting but I gave up on it 3/4 of the way through.
+* Hamnet
+Not to say it wasn't good but difficult to read much of it before bed because it put me to sleep quite quickly.
+* Animal Farm
+Easy but good read.
+* God Bless You, Mr. Rosewater
+On and off with this one which has made it difficult for me to follow. Not sure I'll finish it.
