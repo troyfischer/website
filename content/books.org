@@ -3,17 +3,31 @@
 #+setupfile: ./themes/org/troy-story.setup
 #+include: ./header.org
 
-Keeping track of the books I've read recently.
+Books I've read 📚
 
 * I Know Why The Caged Bird Sings
-Did not know this was an autobiography prior to picking it up.
+Did not know this was an autobiography prior to picking it up. Always
+interesting to learn about the lives of others who've had things objectively far
+more difficult than I have.
+
+I was at a restaurant in the Florida Keys where there was a caged bird chirping
+and remembered there was a book with that name and decided to read it.
 * Player Piano
 Currently my favorite Vonnegut book.
+
+I loved the ending when the people start repairing the machines that the main
+characters worked so hard to destroy. The idea that there's a level of
+inevitablility to certain outcomes makes life easier to digest.
 * Loveless
-Interesting but I gave up on it 3/4 of the way through.
+About a girl discovering she's asexual at university.
+
+Interesting but a bit repetitive/dry about 3/4 of the way through. Could be due to the fact that I don't really relate but I didn't finish the book.
 * Hamnet
-Not to say it wasn't good but difficult to read much of it before bed because it put me to sleep quite quickly.
+A story about Shakespeare's son Hamnet. Enjoyed it but it took a while to finish due to how fast it put me to sleep before bed.
 * Animal Farm
 Easy but good read.
-* God Bless You, Mr. Rosewater
-On and off with this one which has made it difficult for me to follow. Not sure I'll finish it.
+
+I find that a lot of right wingers (in the areas of the internet that I
+frequent) liken Orwell's 1984 to todays society as a means to scare readers but
+I wonder how many of those readers know Orwell described himself as a democratic
+socialist.
