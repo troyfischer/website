@@ -1,0 +1,9 @@
+#+title: Melbourne
+#+author: Troy Fischer
+#+setupfile: ../themes/org/troy-story.setup
+#+include: ../header.org
+
+[[../themes/images/travel/melbourne/alligator.jpeg]]
+[[../themes/images/travel/melbourne/apartment.jpeg]]
+[[../themes/images/travel/melbourne/apt_building.jpeg]]
+[[../themes/images/travel/melbourne/sun.jpeg]]

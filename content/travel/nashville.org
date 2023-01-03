@@ -1,0 +1,8 @@
+#+title: Nashville
+#+author: Troy Fischer
+#+setupfile: ../themes/org/troy-story.setup
+#+include: ../header.org
+
+[[../themes/images/travel/nashville/friends1.jpg]]
+[[../themes/images/travel/nashville/friends2.jpg]]
+[[../themes/images/travel/nashville/view.jpeg]]

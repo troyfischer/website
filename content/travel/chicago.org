@@ -1,0 +1,9 @@
+#+title: Chicago
+#+author: Troy Fischer
+#+setupfile: ../themes/org/troy-story.setup
+#+include: ../header.org
+
+[[../themes/images/travel/chicago/skydeck.jpeg]]
+[[../themes/images/travel/chicago/downtown.jpeg]]
+[[../themes/images/travel/chicago/bean.jpeg]]
+[[../themes/images/travel/chicago/city_view.jpeg]]

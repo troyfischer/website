@@ -1,10 +1,12 @@
-#+title: Movies
+#+title: Movies 🎥
 #+author: Troy Fischer
 #+setupfile: ./themes/org/troy-story.setup
 #+include: ./header.org
 
-I'm awful with watching movies due to my internet induced short attention span. This page is going over movies I've been watching.
+Movies I'm watching...
 
+* Avatar 2
+Avatars live in a lovely communist utopia
 * 2001 A Space Odyssey
 Enjoyed it but needed some additonal help from Reddit to fully analyze the story.
 * No Country For Old Men
@@ -13,3 +15,8 @@ The ending is a change of pace from most movies that have a clearer conflict/res
 Not my favorite but interesting enough to watch the entire thing.
 * Get Out
 Wow it was good.
+* Ex Machina
+* Whiplash
+Drum solos
+* Parasite
+Cool movie about the struggle of working class people while the wealthy are completely oblivious.

@@ -1,0 +1,7 @@
+#+title: Washington DC
+#+author: Troy Fischer
+#+setupfile: ../themes/org/troy-story.setup
+#+include: ../header.org
+
+
+[[../themes/images/travel/washington_dc/pillars.jpeg]]

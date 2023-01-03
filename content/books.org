@@ -1,10 +1,11 @@
-#+title: Books
+#+title: Books 📚
 #+author: Troy Fischer
 #+setupfile: ./themes/org/troy-story.setup
 #+include: ./header.org
 
-Books I've read 📚
-
+* A Supposedly Fun Thing I'll Never Do Again
+Collection of essays - the one I read the collection for was the cruise ship experience.
+DFW is an incredible author. Paints the entire picture with words. Also witty and funny.
 * I Know Why The Caged Bird Sings
 Did not know this was an autobiography prior to picking it up. Always
 interesting to learn about the lives of others who've had things objectively far
@@ -31,3 +32,33 @@ I find that a lot of right wingers (in the areas of the internet that I
 frequent) liken Orwell's 1984 to todays society as a means to scare readers but
 I wonder how many of those readers know Orwell described himself as a democratic
 socialist.
+
+[[https://dleybz.medium.com/orwell-was-a-socialist-e444d34f3fbe][George Orwell Was a Socialist]]
+* The Three Body Problem (Series)
+I loved these books. I could not put them down and that is not something that
+happens often for me.
+** The Three Body Problem
+** The Dark Forest
+** Death's End
+* Sirens Of Titan
+Second favorite Vonnegut book.
+
+Another fun idea that all of humanity is more or less a joke or a tool of some
+far more advanced civilization.
+
+I have added the word Trafalmadore to at least one code base that I've worked on.
+* Cat's Cradle
+I read all of it on a plane ride and genuinely do not remember a word.
+* 1984
+Easy classic.
+* The Catcher in the Rye
+One of those books I never had to read in school
+* Children of Time
+* The God Delusion
+I think it's trendy to rag on the internet atheists (Sam Harris, Richard
+Dawkins, Christopher Hitchens, etc) of the early/mid 2010s but they undoubtedly
+had a major impact on my life coming from parents that are
+religious fundamentalists.
+* Brave New World
+* Farenheit 451
+Another book I think most kids read in highscool but I somehow avoided.

@@ -1,0 +1,18 @@
+#+title: Tulum
+#+author: Troy Fischer
+#+setupfile: ../themes/org/troy-story.setup
+#+include: ../header.org
+
+[[../themes/images/travel/tulum/beach.jpeg]]
+[[../themes/images/travel/tulum/dinner.jpg]]
+[[../themes/images/travel/tulum/snorkel.jpg]]
+[[../themes/images/travel/tulum/tulum.jpg]]
+[[../themes/images/travel/tulum/cenote1.jpg]]
+[[../themes/images/travel/tulum/cenote2.jpg]]
+[[../themes/images/travel/tulum/cenote3.jpg]]
+[[../themes/images/travel/tulum/cenote4.jpg]]
+[[../themes/images/travel/tulum/ruins.jpg]]
+[[../themes/images/travel/tulum/ruins2.jpg]]
+[[../themes/images/travel/tulum/statue.jpg]]
+[[../themes/images/travel/tulum/tacos1.jpg]]
+[[../themes/images/travel/tulum/tacos2.jpg]]

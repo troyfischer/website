@@ -7,11 +7,19 @@
 
 * Welcome
 It's like [[https://toystory.disney.com/][toy story]] but not... welcome to the site. It's entirely developed using [[https://orgmode.org/][org-mode]].
-* About
-+ [[file:about/about_me.org][About me]]
+** About Me
+I attended the University of Florida and received my B.S. in Computer Science
+in 2019. I currently work for [[https://www.capitalone.com/][Capital One]]. My interests include software
+engineering, financial markets, travel, rollerblading, and yoga. I intend to use
+this site as a general purpose blog. Thanks for taking a look!
+* Travel
++ [[file:travel/travel.org][Where I'm Going]]
 * Movies
 + [[file:movies.org][What I'm Watching]]
 * Books
 + [[file:books.org][What I'm Reading]]
 * Leetcode
 + [[file:neetcode/neetcode.org][Neetcode Progress]]
+* Lacrosse Highlights
++ [[https://www.youtube.com/watch?v=MApjLtQ6Px4][Junior]]
++ [[https://www.youtube.com/watch?v=-ZZdzcJpg7Q][Sophomore]]

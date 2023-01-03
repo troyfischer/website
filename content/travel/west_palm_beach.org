@@ -1,0 +1,6 @@
+#+title: West Palm Beach
+#+author: Troy Fischer
+#+setupfile: ../themes/org/troy-story.setup
+#+include: ../header.org
+
+[[../themes/images/travel/west_palm_beach/wedding.jpg]]

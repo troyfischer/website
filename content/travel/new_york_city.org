@@ -1,0 +1,14 @@
+#+title: New York City
+#+author: Troy Fischer
+#+setupfile: ../themes/org/troy-story.setup
+#+include: ../header.org
+
+[[../themes/images/travel/new_york_city/times_square.jpeg]]
+[[../themes/images/travel/new_york_city/rockefeller.jpeg]]
+[[../themes/images/travel/new_york_city/view.jpeg]]
+[[../themes/images/travel/new_york_city/central.jpeg]]
+[[../themes/images/travel/new_york_city/central2.jpeg]]
+[[../themes/images/travel/new_york_city/prospect.jpeg]]
+[[../themes/images/travel/new_york_city/friends.jpeg]]
+[[../themes/images/travel/new_york_city/museum.jpeg]]
+[[../themes/images/travel/new_york_city/tower.jpeg]]

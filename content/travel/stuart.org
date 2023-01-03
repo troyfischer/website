@@ -1,0 +1,11 @@
+#+title: Stuart
+#+author: Troy Fischer
+#+setupfile: ../themes/org/troy-story.setup
+#+include: ../header.org
+
+[[../themes/images/travel/stuart/boat.jpeg]]
+[[../themes/images/travel/stuart/library.jpeg]]
+[[../themes/images/travel/stuart/dad.jpg]]
+[[../themes/images/travel/stuart/sandbar1.jpg]]
+[[../themes/images/travel/stuart/sandbar2.jpeg]]
+[[../themes/images/travel/stuart/boat2.jpeg]]
