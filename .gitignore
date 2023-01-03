@@ -1,3 +1,4 @@
 /public/
 /.packages/
 /content/themes/theme/fontawesome*
+.DS_Store
