@@ -1,5 +1,7 @@
 $cyan: #00FFFF;
-$link-color: $cyan;
+$toy-story-yellow: #feef00;
+$toy-story-red: #d50b22;
+$link-color: $toy-story-red;
 $bright-green: #01ff70;
 $dark-green: #2ecc40;
 
@@ -83,7 +85,7 @@ a, a:visited {
 }
 
 a:hover, a:focus, a:active {
-    color: $dark-green;
+    color: $toy-story-yellow;
 }
 
 /* Code */

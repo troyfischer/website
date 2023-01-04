@@ -10,7 +10,7 @@ body {
   font-family: "Courier New"; }
 
 ::selection {
-  background-color: #00FFFF;
+  background-color: #d50b22;
   color: white; }
 
 /* Responsive content positioning */
@@ -60,11 +60,11 @@ h3, h4, h5, h6 {
 
 /* Links  */
 a, a:visited {
-  color: #00FFFF;
+  color: #d50b22;
   text-decoration: underline; }
 
 a:hover, a:focus, a:active {
-  color: #2ecc40; }
+  color: #feef00; }
 
 /* Code */
 pre {
@@ -78,17 +78,17 @@ pre {
   overflow-x: auto; }
 
 .org-keyword {
-  color: #00FFFF; }
+  color: #d50b22; }
 
 .org-rainbow-delimiters-depth-1 {
   color: #2ecc40; }
 
 .org-rainbow-delimiters-depth-2 {
-  color: #00FFFF; }
+  color: #d50b22; }
 
 /* Blockquotes */
 blockquote {
-  border-left: 3px solid #00FFFF;
+  border-left: 3px solid #d50b22;
   padding-left: 1rem; }
 
 li {
