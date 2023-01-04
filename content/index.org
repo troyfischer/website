@@ -1,8 +1,19 @@
 #+TITLE: Troy Story
+#+OPTIONS: title:nil
 #+AUTHOR: Troy Fischer
 #+DESCRIPTION: Troy Fischer's Blog
 #+SETUPFILE: themes/org/troy-story.setup
-#+INCLUDE: header.org
+#+OPTIONS: toc:nil
+#+html: <h1 class="title"><img src="themes/images/title/troy_story.png" alt="troy_story.png" /></h1>
+#+html: <div id="navigation">
+[[file:index.org][Home]] @@html:<i class="fa-solid fa-house"></i>@@ | @@html:<a target="_blank" href="https://github.com/troyfischer">Github</a>@@ @@html:<i class="fa-brands fa-github"></i>@@ | [[mailto:troytfischer@gmail.com][Contact Me]] @@html:<i class="fa-solid fa-envelope"></i>@@
+#+html: </div>
+#+TOC: headlines 1
+
+#+begin_comment
+How I ended up making the title of this page:
+https://stackoverflow.com/questions/34633910/do-not-add-title-as-heading-to-body-when-exporting-org-file
+#+end_comment
 
 
 * Welcome
