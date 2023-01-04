@@ -7,3 +7,4 @@
 [[../themes/images/travel/chicago/downtown.jpeg]]
 [[../themes/images/travel/chicago/bean.jpeg]]
 [[../themes/images/travel/chicago/city_view.jpeg]]
+[[../themes/images/travel/chicago/tower_view.jpeg]]
