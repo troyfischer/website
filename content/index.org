@@ -1,4 +1,4 @@
-#+TITLE: Troy Story
+#+TITLE: Home
 #+OPTIONS: title:nil
 #+AUTHOR: Troy Fischer
 #+DESCRIPTION: Troy Fischer's Blog
@@ -13,6 +13,8 @@
 #+begin_comment
 How I ended up making the title of this page:
 https://stackoverflow.com/questions/34633910/do-not-add-title-as-heading-to-body-when-exporting-org-file
+
+https://fontmeme.com/toy-story/
 #+end_comment
 
 
