@@ -1,7 +1,6 @@
 #+title: Bahamas
 #+author: Troy Fischer
-#+setupfile: ../themes/org/troy-story.setup
-#+include: ../header.org
+#+include: ./setup.org
 
 [[../themes/images/travel/bahamas/wakeboarding.jpg]]
 [[../themes/images/travel/bahamas/hanging.jpeg]]

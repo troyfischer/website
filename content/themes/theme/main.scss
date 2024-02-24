@@ -1,176 +1,96 @@
-$cyan: #00FFFF;
-$toy-story-yellow: #feef00;
-$toy-story-red: #d50b22;
-$link-color: $toy-story-red;
-$bright-green: #01ff70;
-$dark-green: #2ecc40;
-
-/* Base */
-html,
-body {
-    background-color: #222;
-    min-height: 100%;
-    line-height: 1.5;
-}
+// Define colors
+$background-color: #5CACEE; // Vibrant sky blue
+$text-color: #FFFFFF;
+$link-color: #FFD700; // Warm yellow
+$accent-color: #FF0000; // Bright red
+$white-color: #FFFFFF; // White
+$black-color: #000000;
 
 body {
-    color: #fafafa;
-    font-family: "Courier New";
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  background: $background-color;
+  color: $text-color;
 }
 
-::selection {
-    background-color: $link-color;
-    color: white;
+#content {
+  background: #3b3b3b;
+  padding: 20px;
+  margin: auto;
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5),
+              0 0 20px rgba(0,0,255,0.5); // Adds a glow effect
+  border-radius: 10px; // Optional: Rounds the corners for a softer look
+  color: $white-color; // Ensuring text is visible against a darker background
 }
 
-/* Responsive content positioning */
-@media only screen and (min-width: 1020px) /* Large screens */
-{
-    body{
-        padding: 10vh 25vw;
-    }
+#navigation p, #postamble p {
+  text-align: center;
+  color: $text-color;
 }
 
-@media only screen and (max-width: 1020px) and (min-width: 750px) /* Small screens */
-{
-    body{
-        padding: 5vh 10vw;
-    }
-}
-
-@media only screen and (max-width: 750px) /* Small screens */
-{
-    body{
-        padding: 2vh 5vw;
-    }
-}
-
-/* Headers */
-h1{font-size: 2.5rem;}
-h2{font-size: 1.7rem;}
-h1 > .subtitle, h3, h4, h5, h6{font-size: 1.3rem;}
-
-.title{
-    margin-bottom: 2.5rem;
-    text-align: center;
-}
-
-#navigation {
-    text-align: center;
-}
-
-/* Padding & Margin */
-* {
-    margin: 0; padding: 0;
-}
-
-pre, blockquote, ul, ol, p, table{
-    margin: 1rem 0;
-}
-
-h1, h2 {
-    margin-top: 2rem;
-    line-height: 2rem;
-}
-
-h3, h4, h5, h6 {
-    margin-top: 1rem;
-}
-
-
-/* Links  */
-a, a:visited {
-    color: $link-color;
+a {
+  color: $link-color;
+  text-decoration: none;
+  &:hover {
     text-decoration: underline;
+  }
 }
 
-a:hover, a:focus, a:active {
-    color: $toy-story-yellow;
+.title {
+  text-align: center; // Centers the content of the title class
+  img {
+    display: block; // Makes the image a block-level element
+    margin: 0 auto; // Automatically calculates left and right margins to center the image
+    max-width: 100%; // Ensures the image is responsive and fits its container
+    height: auto; // Maintains the aspect ratio of the image
+  }
 }
 
-/* Code */
-pre {
-    font-family: "Courier New";
-    padding: .5rem;
-    background-color: #333;
-    padding: 0.5rem;
-    border-radius: 0.2rem;
-    font-size: 0.9rem;
-    color: #EEE;
-    overflow-x: auto;
+
+h1, h2, h3 {
+  color: $text-color;
 }
 
-.org-keyword{
-    color: $link-color;
+.org-ul {
+  list-style-type: none;
+  padding: 0;
+
+  li {
+    padding: 5px 0;
+    a {
+      color: $link-color;
+    }
+  }
 }
 
-.org-rainbow-delimiters-depth-1{
-    color: $dark-green;
+// Icons
+.fa-solid, .fa-brands {
+  margin-right: 5px;
 }
 
-.org-rainbow-delimiters-depth-2{
-    color: $link-color;
+// Table of Contents styling
+#table-of-contents {
+  background: none;
+  padding: 10px;
+  border-radius: 5px;
+  h2 {
+    color: $white-color;
+  }
 }
 
-/* Blockquotes */
-blockquote {
-    border-left: 3px solid $link-color;
-    padding-left: 1rem;
+// About Me and other sections
+.outline-text-2, .outline-text-3 {
+  background: #636363; // Removes the background color
+  color: $text-color; // Adjusts the text color for readability if necessary
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 5px;
 }
 
-li{
-    list-style-position: inside;
-}
-
-/* Tags */
-.tag{
-    margin-top: 0.5rem;
-    display: block;
-    color: white;
-    font-size: var(--font-size-xsmall);
-}
-
-.tag > span{
-		font-weight: 400;
-    font-size: 0.8rem;
-    background-color: #444;
-    text-transform: uppercase;
-    border-radius: 2px;
-    width: fit-content;
-    height: auto;
-    padding: 1px 5px;
-}
-
-/* Keywords */
-.todo{
-    color: $dark-green;
-}
-
-.done{
-    color: #444;
-}
-
-/* Overflows */
-.outline-text-2, .outline-text-3, .outline-text-4{
-	  max-width: 100%;
-	  overflow-x: auto;
-}
-
-/* Table */
-tr:nth-child(even) {
-    background-color: #333;
-}
-
-th, td{
-    padding: 0.5rem;
-    text-align: center;
-}
-
-.underline{
-    text-decoration: underline;
-}
-
-img{
-    max-width: 100%;
-    height: auto;
+// Footer
+#postamble {
+  .author, .date {
+    color: $black-color;
+  }
 }

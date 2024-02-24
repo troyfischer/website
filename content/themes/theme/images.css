@@ -1,0 +1,18 @@
+.content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
+
+.content .images-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px; }
+  .content .images-grid img {
+    margin: 0; }
+
+@media (max-width: 768px) {
+  .content img {
+    max-width: 90%; } }
