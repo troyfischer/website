@@ -1,9 +1,9 @@
 // Define colors
-$background-color: #5CACEE; // Vibrant sky blue
-$text-color: #FFFFFF;
-$link-color: #FFD700; // Warm yellow
-$accent-color: #FF0000; // Bright red
-$white-color: #FFFFFF; // White
+$background-color: #5cacee; // Vibrant sky blue
+$text-color: #ffffff;
+$link-color: #ffd700; // Warm yellow
+$accent-color: #ff0000; // Bright red
+$white-color: #ffffff; // White
 $black-color: #000000;
 
 body {
@@ -15,25 +15,101 @@ body {
 
 #content {
   background: #3b3b3b;
+  max-height: 90vh; /* Adjust based on your preference */
+  overflow-y: auto; /* Enables vertical scrolling */
   padding: 20px;
   margin: auto;
   max-width: 800px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5),
-              0 0 20px rgba(0,0,255,0.5); // Adds a glow effect
-  border-radius: 10px; // Optional: Rounds the corners for a softer look
+  box-shadow: 0 0 1000px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
   color: $white-color; // Ensuring text is visible against a darker background
 }
 
-#navigation p, #postamble p {
+#content::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 15px;
+}
+
+#content::-webkit-scrollbar-thumb {
+  background: rgba(255,0,0,0.5);
+  border-radius: 15px;
+}
+
+#content:hover::-webkit-scrollbar-thumb {
+  background: rgba(255,0,0,0.8);
+  border-radius: 15px;
+}
+
+@media (max-width: 768px) { /* Adjust the breakpoint as needed */
+  #content {
+    max-height: none; /* Removes the fixed height */
+    overflow-y: visible; /* Removes scrolling from the content div */
+  }
+}
+
+
+// Target headings within a specific container, if needed, for more specificity
+.content {
+  div:not(#table-of-contents) {
+    h1:not(.title),
+    h2:not(#table-of-contents),
+    h3,
+    h4,
+    h5,
+    h6 {
+      position: relative;
+      padding-left: 30px; // Adjust space for the custom symbol
+
+      &::before {
+        content: "○"; // Example: Lightning bolt symbol
+        position: absolute;
+        left: 0; // Position the symbol to the left of the heading
+        top: 0; // Align with the top of the heading
+        color: $link-color; // Example: Gold color for the symbol
+        font-size: 24px;
+      }
+    }
+    h3 {
+      &::before {
+        font-size: 20px;
+      }
+    }
+    h4 {
+      &::before {
+        font-size: 16px;
+      }
+    }
+    h5 {
+      &::before {
+        font-size: 12px;
+      }
+    }
+    h6 {
+      &::before {
+        font-size: 8px;
+      }
+    }
+  }
+}
+
+#navigation p,
+#postamble p {
   text-align: center;
   color: $text-color;
 }
 
 a {
   color: $link-color;
+  position: relative;
   text-decoration: none;
+
   &:hover {
-    text-decoration: underline;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .9s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff0000' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: 1.3em auto;
+    background-repeat: repeat-x;
+    text-decoration: none;
+    opacity: 0.85;
   }
 }
 
@@ -47,14 +123,22 @@ a {
   }
 }
 
-
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: $text-color;
 }
 
 .org-ul {
   list-style-type: none;
   padding: 0;
+
+  li::before {
+    content: "•"; /* Custom bullet point symbol */
+    padding-right: 10px;
+    color: $accent-color; /* Bullet point color */
+    font-size: 20px;
+  }
 
   li {
     padding: 5px 0;
@@ -65,23 +149,36 @@ h1, h2, h3 {
 }
 
 // Icons
-.fa-solid, .fa-brands {
+.fa-solid,
+.fa-brands {
   margin-right: 5px;
 }
 
 // Table of Contents styling
-#table-of-contents {
-  background: none;
+#table-of-contents ul {
+  list-style-type: none; // Remove default bullets
+  margin: 0;
   padding: 10px;
   border-radius: 5px;
-  h2 {
-    color: $white-color;
+
+  li {
+    position: relative;
+    padding-left: 1.5em; // Space for custom bullet
+
+    &::before {
+      content: "➤"; // Example: Star icon as the bullet point
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: #ffd700; // Gold color for the star
+    }
   }
 }
 
 // About Me and other sections
-.outline-text-2, .outline-text-3 {
-  background: #636363; // Removes the background color
+.outline-text-2,
+.outline-text-3 {
+  background: #454545; // Removes the background color
   color: $text-color; // Adjusts the text color for readability if necessary
   padding: 10px;
   margin: 15px 0;
@@ -90,7 +187,8 @@ h1, h2, h3 {
 
 // Footer
 #postamble {
-  .author, .date {
+  .author,
+  .date {
     color: $black-color;
   }
 }

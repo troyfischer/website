@@ -1,27 +1,92 @@
+@charset "UTF-8";
 body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  background: #5CACEE;
-  color: #FFFFFF; }
+  background: #5cacee;
+  color: #ffffff; }
 
 #content {
   background: #3b3b3b;
+  max-height: 90vh;
+  /* Adjust based on your preference */
+  overflow-y: auto;
+  /* Enables vertical scrolling */
   padding: 20px;
   margin: auto;
   max-width: 800px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 255, 0.5);
+  box-shadow: 0 0 1000px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  color: #FFFFFF; }
+  color: #ffffff; }
 
-#navigation p, #postamble p {
+#content::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 15px; }
+
+#content::-webkit-scrollbar-thumb {
+  background: rgba(255, 0, 0, 0.5);
+  border-radius: 15px; }
+
+#content:hover::-webkit-scrollbar-thumb {
+  background: rgba(255, 0, 0, 0.8);
+  border-radius: 15px; }
+
+@media (max-width: 768px) {
+  /* Adjust the breakpoint as needed */
+  #content {
+    max-height: none;
+    /* Removes the fixed height */
+    overflow-y: visible;
+    /* Removes scrolling from the content div */ } }
+
+.content div:not(#table-of-contents) h1:not(.title),
+.content div:not(#table-of-contents) h2:not(#table-of-contents),
+.content div:not(#table-of-contents) h3,
+.content div:not(#table-of-contents) h4,
+.content div:not(#table-of-contents) h5,
+.content div:not(#table-of-contents) h6 {
+  position: relative;
+  padding-left: 30px; }
+  .content div:not(#table-of-contents) h1:not(.title)::before,
+  .content div:not(#table-of-contents) h2:not(#table-of-contents)::before,
+  .content div:not(#table-of-contents) h3::before,
+  .content div:not(#table-of-contents) h4::before,
+  .content div:not(#table-of-contents) h5::before,
+  .content div:not(#table-of-contents) h6::before {
+    content: "○";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #ffd700;
+    font-size: 24px; }
+
+.content div:not(#table-of-contents) h3::before {
+  font-size: 20px; }
+
+.content div:not(#table-of-contents) h4::before {
+  font-size: 16px; }
+
+.content div:not(#table-of-contents) h5::before {
+  font-size: 12px; }
+
+.content div:not(#table-of-contents) h6::before {
+  font-size: 8px; }
+
+#navigation p,
+#postamble p {
   text-align: center;
-  color: #FFFFFF; }
+  color: #ffffff; }
 
 a {
-  color: #FFD700;
+  color: #ffd700;
+  position: relative;
   text-decoration: none; }
   a:hover {
-    text-decoration: underline; }
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .9s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff0000' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: 1.3em auto;
+    background-repeat: repeat-x;
+    text-decoration: none;
+    opacity: 0.85; }
 
 .title {
   text-align: center; }
@@ -31,33 +96,53 @@ a {
     max-width: 100%;
     height: auto; }
 
-h1, h2, h3 {
-  color: #FFFFFF; }
+h1,
+h2,
+h3 {
+  color: #ffffff; }
 
 .org-ul {
   list-style-type: none;
   padding: 0; }
+  .org-ul li::before {
+    content: "•";
+    /* Custom bullet point symbol */
+    padding-right: 10px;
+    color: #ff0000;
+    /* Bullet point color */
+    font-size: 20px; }
   .org-ul li {
     padding: 5px 0; }
     .org-ul li a {
-      color: #FFD700; }
+      color: #ffd700; }
 
-.fa-solid, .fa-brands {
+.fa-solid,
+.fa-brands {
   margin-right: 5px; }
 
-#table-of-contents {
-  background: none;
+#table-of-contents ul {
+  list-style-type: none;
+  margin: 0;
   padding: 10px;
   border-radius: 5px; }
-  #table-of-contents h2 {
-    color: #FFFFFF; }
+  #table-of-contents ul li {
+    position: relative;
+    padding-left: 1.5em; }
+    #table-of-contents ul li::before {
+      content: "➤";
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: #ffd700; }
 
-.outline-text-2, .outline-text-3 {
-  background: #636363;
-  color: #FFFFFF;
+.outline-text-2,
+.outline-text-3 {
+  background: #454545;
+  color: #ffffff;
   padding: 10px;
   margin: 15px 0;
   border-radius: 5px; }
 
-#postamble .author, #postamble .date {
+#postamble .author,
+#postamble .date {
   color: #000000; }
