@@ -1,5 +1,5 @@
 # -*- mode: org; -*-
-#+HTML_HEAD: <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+#+HTML_HEAD: <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 #+HTML_HEAD: <link rel="icon" href="../themes/images/title/troy_story.ico" type="image/ico" />
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../themes/theme/main.css"/>
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../themes/theme/images.css"/>
