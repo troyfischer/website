@@ -5,71 +5,76 @@ body {
   background: #5cacee;
   color: #ffffff; }
 
-#content {
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 15px; }
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 0, 0, 0.5);
+  border-radius: 15px; }
+
+:hover::-webkit-scrollbar-thumb {
+  background: rgba(255, 0, 0, 0.8);
+  border-radius: 15px; }
+
+@media (max-width: 768px) {
+  /* Adjust the breakpoint as needed */
+  .content {
+    margin: 10px auto;
+    max-height: none;
+    /* Removes the fixed height */
+    overflow-y: visible;
+    /* Removes scrolling from the content div */ } }
+
+.content {
   background: #3b3b3b;
   max-height: 90vh;
   /* Adjust based on your preference */
   overflow-y: auto;
   /* Enables vertical scrolling */
   padding: 20px;
-  margin: auto;
+  margin: 50px auto;
   max-width: 800px;
   box-shadow: 0 0 1000px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   color: #ffffff; }
-
-#content::-webkit-scrollbar {
-  width: 5px;
-  border-radius: 15px; }
-
-#content::-webkit-scrollbar-thumb {
-  background: rgba(255, 0, 0, 0.5);
-  border-radius: 15px; }
-
-#content:hover::-webkit-scrollbar-thumb {
-  background: rgba(255, 0, 0, 0.8);
-  border-radius: 15px; }
-
-@media (max-width: 768px) {
-  /* Adjust the breakpoint as needed */
-  #content {
-    max-height: none;
-    /* Removes the fixed height */
-    overflow-y: visible;
-    /* Removes scrolling from the content div */ } }
-
-.content div:not(#table-of-contents) h1:not(.title),
-.content div:not(#table-of-contents) h2:not(#table-of-contents),
-.content div:not(#table-of-contents) h3,
-.content div:not(#table-of-contents) h4,
-.content div:not(#table-of-contents) h5,
-.content div:not(#table-of-contents) h6 {
-  position: relative;
-  padding-left: 30px; }
-  .content div:not(#table-of-contents) h1:not(.title)::before,
-  .content div:not(#table-of-contents) h2:not(#table-of-contents)::before,
-  .content div:not(#table-of-contents) h3::before,
-  .content div:not(#table-of-contents) h4::before,
-  .content div:not(#table-of-contents) h5::before,
+  .content div:not(#table-of-contents) h1:not(.title):not(.typing-text),
+  .content div:not(#table-of-contents) h2:not(#table-of-contents),
+  .content div:not(#table-of-contents) h3,
+  .content div:not(#table-of-contents) h4,
+  .content div:not(#table-of-contents) h5,
+  .content div:not(#table-of-contents) h6 {
+    position: relative;
+    padding-left: 30px; }
+    .content div:not(#table-of-contents) h1:not(.title):not(.typing-text)::before,
+    .content div:not(#table-of-contents) h2:not(#table-of-contents)::before,
+    .content div:not(#table-of-contents) h3::before,
+    .content div:not(#table-of-contents) h4::before,
+    .content div:not(#table-of-contents) h5::before,
+    .content div:not(#table-of-contents) h6::before {
+      content: "○";
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: #ffd700;
+      font-size: 24px; }
+  .content div:not(#table-of-contents) h3::before {
+    font-size: 20px; }
+  .content div:not(#table-of-contents) h4::before {
+    font-size: 16px; }
+  .content div:not(#table-of-contents) h5::before {
+    font-size: 12px; }
   .content div:not(#table-of-contents) h6::before {
-    content: "○";
-    position: absolute;
-    left: 0;
-    top: 0;
-    color: #ffd700;
-    font-size: 24px; }
-
-.content div:not(#table-of-contents) h3::before {
-  font-size: 20px; }
-
-.content div:not(#table-of-contents) h4::before {
-  font-size: 16px; }
-
-.content div:not(#table-of-contents) h5::before {
-  font-size: 12px; }
-
-.content div:not(#table-of-contents) h6::before {
-  font-size: 8px; }
+    font-size: 8px; }
+  .content .super-typing-container {
+    width: 100%;
+    text-align: center; }
+  .content .typing-container {
+    max-width: 80%;
+    /* Adjust the max-width as needed */
+    margin: 0 auto;
+    font-size: 2em;
+    line-height: 1.4; }
 
 #navigation p,
 #postamble p {
