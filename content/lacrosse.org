@@ -1,0 +1,13 @@
+#+title: Lacrosse Highlights
+#+author: Troy Fischer
+#+setupfile: ./themes/org/troy-story.setup
+#+include: ./header.org
+
+* Junior Year
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MApjLtQ6Px4?si=_QcEGCOTSbBYlo-7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+#+end_export
+* Sophomore Year
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-ZZdzcJpg7Q?si=wjSIAvmVXxkUb8NC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+#+end_export
