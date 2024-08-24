@@ -14,15 +14,11 @@ in 2019. In 2024 I gave up on a CS masters program so I can now also claim the
 title of *#college-dropout*. I currently work for [[https://www.capitalone.com/][Capital One]] but could be working
 for you 😉.
 * Software Engineering
++ [[file:resume.org][Résumé]]
 + [[file:neetcode.org][Neetcode Progress]]
 + [[file:posts/emacs/why_i_use_emacs.org][Why I use Emacs]]
 * Miscellaneous
-+ [[file:resume.org][Resume]]
-* Travel
 + [[file:travel.org][Where I'm Going]]
-* Movies
 + [[file:movies.org][What I'm Watching]]
-* Books
 + [[file:books.org][What I'm Reading]]
-* Lacrosse Highlights
-+ [[file:lacrosse.org][Highlights]]
++ [[file:lacrosse.org][Lacrosse Highlights]]
