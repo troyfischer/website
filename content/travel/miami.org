@@ -1,5 +1,5 @@
 #+title: Miami
 #+author: Troy Fischer
-#+include: ./setup.org
+#+include: header.org
 
 [[../themes/images/travel/miami/night.jpeg]]

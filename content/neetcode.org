@@ -1,7 +1,6 @@
 #+title: Neetcode
 #+author: Troy Fischer
-#+setupfile: ../themes/org/troy-story.setup
-#+include: ../header.org
+#+include: header.org
 
 Documentation of progress going through [[https://neetcode.io/][Neetcode.io]] 150.
 

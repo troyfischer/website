@@ -1,6 +1,6 @@
 #+title: Tulum
 #+author: Troy Fischer
-#+include: ./setup.org
+#+include: header.org
 
 [[../themes/images/travel/tulum/beach.jpeg]]
 [[../themes/images/travel/tulum/dinner.jpg]]

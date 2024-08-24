@@ -1,0 +1,7 @@
+#+html: <h1 class="title"><img src="themes/images/title/troy_story.png" alt="troy_story.png" /></h1>
+#+begin_comment
+How I ended up making the title of this page:
+https://stackoverflow.com/questions/34633910/do-not-add-title-as-heading-to-body-when-exporting-org-file
+
+https://fontmeme.com/toy-story/
+#+end_comment

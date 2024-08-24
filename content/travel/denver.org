@@ -1,6 +1,6 @@
 #+title: Denver
 #+author: Troy Fischer
-#+include: ./setup.org
+#+include: header.org
 
 [[../themes/images/travel/denver/avs.jpeg]]
 [[../themes/images/travel/denver/boulder.jpeg]]

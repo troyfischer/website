@@ -1,6 +1,6 @@
 #+title: Gainesville
 #+author: Troy Fischer
-#+include: ./setup.org
+#+include: header.org
 
 [[../themes/images/travel/gainesville/gameday.jpeg]]
 [[../themes/images/travel/gainesville/gator.jpg]]

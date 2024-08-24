@@ -5,17 +5,20 @@ body {
   background: #5cacee;
   color: #ffffff; }
 
-::-webkit-scrollbar {
-  width: 5px;
-  border-radius: 15px; }
-
-::-webkit-scrollbar-thumb {
-  background: rgba(255, 0, 0, 0.5);
-  border-radius: 15px; }
-
-:hover::-webkit-scrollbar-thumb {
-  background: rgba(255, 0, 0, 0.8);
-  border-radius: 15px; }
+@media (min-width: 768px) {
+  overflow-y: auto;
+  /* Enables vertical scrolling */
+  max-height: 90vh;
+  /* Adjust based on your preference */
+  ::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 15px; }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 0, 0, 0.5);
+    border-radius: 15px; }
+  :hover::-webkit-scrollbar-thumb {
+    background: rgba(255, 0, 0, 0.8);
+    border-radius: 15px; } }
 
 @media (max-width: 768px) {
   /* Adjust the breakpoint as needed */
@@ -28,10 +31,6 @@ body {
 
 .content {
   background: #3b3b3b;
-  max-height: 90vh;
-  /* Adjust based on your preference */
-  overflow-y: auto;
-  /* Enables vertical scrolling */
   padding: 20px;
   margin: 50px auto;
   max-width: 800px;

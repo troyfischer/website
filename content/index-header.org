@@ -1,4 +1,6 @@
 #+SETUPFILE: ./themes/org/troy-story.setup
 #+OPTIONS: toc:nil
+#+include: title.org
+#+include: typewriter.org
 #+include: navigation.org
 #+TOC: headlines 1

@@ -1,2 +1,0 @@
-#+include: ../themes/org/troy-story-2.setup
-#+include: ../header.org

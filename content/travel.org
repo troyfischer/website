@@ -1,0 +1,18 @@
+#+title: Travel ✈
+#+author: Troy Fischer
+#+include: header.org
+
+
+* [[file:travel/bahamas.org][Bahamas]]
+* [[file:travel/california.org][California]]
+* [[file:travel/chicago.org][Chicago]]
+* [[file:travel/denver.org][Denver]]
+* [[file:travel/gainesville.org][Gainesville, FL]]
+* [[file:travel/melbourne.org][Melbourne, FL]]
+* [[file:travel/miami.org][Miami]]
+* [[file:travel/nashville.org][Nashville]]
+* [[file:travel/new_york_city.org][New York City]]
+* [[file:travel/stuart.org][Stuart, FL]]
+* [[file:travel/tulum.org][Tulum]]
+* [[file:travel/washington_dc.org][Washington DC]]
+* [[file:travel/west_palm_beach.org][West Palm Beach]]

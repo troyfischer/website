@@ -1,0 +1,6 @@
+#+begin_export html
+<div class="super-typing-container">
+<div class="typing-container" id="typing-container"></div>
+</div>
+<script type="text/javascript" src="themes/theme/typing.js"></script>
+#+end_export

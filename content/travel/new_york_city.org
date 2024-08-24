@@ -1,6 +1,6 @@
 #+title: New York City
 #+author: Troy Fischer
-#+include: ./setup.org
+#+include: header.org
 
 [[../themes/images/travel/new_york_city/times_square.jpeg]]
 [[../themes/images/travel/new_york_city/rockefeller.jpeg]]
