@@ -13,44 +13,30 @@ body {
   color: $text-color;
 }
 
-@media (min-width: 768px) {
-  overflow-y: auto; /* Enables vertical scrolling */
-  max-height: 90vh; /* Adjust based on your preference */
-
-  ::-webkit-scrollbar {
-    width: 5px;
-    border-radius: 15px;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background: rgba(255, 0, 0, 0.5);
-    border-radius: 15px;
-  }
-
-  :hover::-webkit-scrollbar-thumb {
-    background: rgba(255, 0, 0, 0.8);
-    border-radius: 15px;
-  }
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 15px;
 }
 
-@media (max-width: 768px) {
-  /* Adjust the breakpoint as needed */
-  .content {
-    margin: 10px auto;
-    max-height: none; /* Removes the fixed height */
-    overflow-y: visible; /* Removes scrolling from the content div */
-  }
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+:hover::-webkit-scrollbar-thumb {
+  background: rgba(255, 0, 0, 0.8);
+  border-radius: 15px;
 }
 
 // Target headings within a specific container, if needed, for more specificity
 .content {
   background: #3b3b3b;
   padding: 20px;
-  margin: 50px auto;
   max-width: 800px;
   box-shadow: 0 0 1000px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   color: $white-color; // Ensuring text is visible against a darker background
+  margin: 50px auto;
 
   div:not(#table-of-contents) {
     h1:not(.title):not(.typing-text),
@@ -93,6 +79,17 @@ body {
     }
   }
 
+  .title {
+    text-align: center; // Centers the content of the title class
+    img {
+      display: block; // Makes the image a block-level element
+      margin: 0 auto; // Automatically calculates left and right margins to center the image
+      max-width: 100%; // Ensures the image is responsive and fits its container
+      height: auto; // Maintains the aspect ratio of the image
+      box-shadow: none;
+    }
+  }
+
   .super-typing-container {
     width: 100%;
     text-align: center;
@@ -123,16 +120,6 @@ a {
     background-repeat: repeat-x;
     text-decoration: none;
     opacity: 0.85;
-  }
-}
-
-.title {
-  text-align: center; // Centers the content of the title class
-  img {
-    display: block; // Makes the image a block-level element
-    margin: 0 auto; // Automatically calculates left and right margins to center the image
-    max-width: 100%; // Ensures the image is responsive and fits its container
-    height: auto; // Maintains the aspect ratio of the image
   }
 }
 

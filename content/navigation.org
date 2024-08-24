@@ -1,3 +1,5 @@
+#+include: ./themes/org/macros.org
+
 #+html: <div id="navigation">
-[[file:index.org][Home]] @@html:<i class="fa-solid fa-house"></i>@@ | @@html:<a target="_blank" href="https://github.com/troyfischer">Github</a>@@ @@html:<i class="fa-brands fa-github"></i>@@ | [[mailto:troytfischer@gmail.com][Contact Me]] @@html:<i class="fa-solid fa-envelope"></i>@@
+{{{home-link-org}}} @@html:<i class="fa-solid fa-house"></i>@@ | @@html:<a target="_blank" href="https://github.com/troyfischer">Github</a>@@ @@html:<i class="fa-brands fa-github"></i>@@ | [[mailto:troytfischer@gmail.com][Contact Me]] @@html:<i class="fa-solid fa-envelope"></i>@@
 #+html: </div>

@@ -1,5 +1,60 @@
 #+TITLE: Why I Use Emacs
-#+INCLUDE: ../../header.org
-#+OPTIONS: num:nil ^:{}
 
-* Emacs
+
+I work on a computer all day everyday. The work I do involves reading, writing,
+and editing source code. I am not the most talented engineer skill wise so I
+must make up for that in other areas. The area I've chosen is tooling. I
+strongly believe and would encourage all young engineers, even if you are much
+brighter than me, to dive head first into one of the more "niche" editors be it
+emacs or neovim. The circles that you will be able to run around "normy"
+software developers will quickly become apparent.
+
+I originally read this on hacker news but one of the commentors mentioned that
+learning to use / master one of these editors requires a shift in your
+general mindset from that of a software consumer to a software producer. The
+reality of relying on open source software (but really any software) is that
+there will be bugs and when your ability to work depends on this software you
+kind of have no choice but to /investigate/ the cause of your issues rather than
+throw your hands up and ask somebody else to fix it. The nice part about it
+being open source is you have the ability to /read/ the source code and make at
+least some attempt to debug an issue yourself.
+
+This kind of "mindset shift" has been apparent to me primarily when I compare
+myself to my coworkers and it has also allowed me to actually contribute back to
+the community that has provided me with such an amazing tool to begin with, see
+[[https://github.com/doomemacs/doomemacs/pull/7105][My Doom Emacs Bugfix]].
+
+* Day to Day Emacs Benefits
+** Create and edit pull requests using magit forge
+** Org mode
+** Rest Client
+** Project management
+** Buffer management
+** Keyboard Navigation
+I'm an evil user that occassionally experiments with becoming holy again with
+default keybinds but can't quite commit. I started out using VIM in college and
+the modal editing experience is deeply engrained at this point. No matter the
+keybindings you choose, being able to navigate through text with the keyboard
+will make you look like you at least have a clue what you're doing. Emacs
+packages like ~avy~ and ~swiper~ make you a wizard. It *will* become difficult for you
+to watch your coworkers use their computer while attempting to help with an
+issue.
+
+For me, writing good code is like writing an essay in that I *need* to iterate on
+it. My first attempt ought to be heavily edited and refactored. In the real
+world we have deadlines and non-technical product managers / business folks who
+do not give a damn if your code is elegant or maintainable or generic and they
+sure as hell do not care about the concept of technical debt. That is to say it
+is important to me to be able to iterate *fast*. Mastering an editor is an
+important piece to this puzzle.
+* My take on Emacs versus Neovim
+Emacs's biggest weakness for someone like me is emacs-lisp. It is a language
+that I will probably never master so long as I have a day job. I occassionally
+stress that Emacs might die out one day due to lack of popularity and work on my
+Neovim setup to prepare for the inevitable. That said there is /nothing/ like
+Emacs in terms of integration, it's difficult for me to put it into exact words
+so I'd say you just have to try it. Even when I watch folks on YouTube use their
+super customized Neovim setups (which are really cool btw) there's always a few
+little things that jump out as deal breakers to me, they'll still issue shell
+commands to interact with files, , have to open up a dedicated rest client, or
+use another program all together (usually tmux) to manage concurrent projects.

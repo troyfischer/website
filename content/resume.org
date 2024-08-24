@@ -1,0 +1,12 @@
+#+title: Resume
+#+author: Troy Fischer
+#+include: ./header.org
+
+
+Best when viewed on a desktop rather than mobile.
+#+begin_export html
+<iframe src="themes/resources/resume/resume.pdf#zoom=100" width="100%" height="1100px">
+    This browser does not support PDFs. Please download the PDF to view it:
+    <a href="themes/resources/resume/resume.pdf">Download PDF</a>.
+</iframe>
+#+end_export

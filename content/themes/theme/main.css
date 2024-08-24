@@ -5,38 +5,26 @@ body {
   background: #5cacee;
   color: #ffffff; }
 
-@media (min-width: 768px) {
-  overflow-y: auto;
-  /* Enables vertical scrolling */
-  max-height: 90vh;
-  /* Adjust based on your preference */
-  ::-webkit-scrollbar {
-    width: 5px;
-    border-radius: 15px; }
-  ::-webkit-scrollbar-thumb {
-    background: rgba(255, 0, 0, 0.5);
-    border-radius: 15px; }
-  :hover::-webkit-scrollbar-thumb {
-    background: rgba(255, 0, 0, 0.8);
-    border-radius: 15px; } }
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 15px; }
 
-@media (max-width: 768px) {
-  /* Adjust the breakpoint as needed */
-  .content {
-    margin: 10px auto;
-    max-height: none;
-    /* Removes the fixed height */
-    overflow-y: visible;
-    /* Removes scrolling from the content div */ } }
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 0, 0, 0.5);
+  border-radius: 15px; }
+
+:hover::-webkit-scrollbar-thumb {
+  background: rgba(255, 0, 0, 0.8);
+  border-radius: 15px; }
 
 .content {
   background: #3b3b3b;
   padding: 20px;
-  margin: 50px auto;
   max-width: 800px;
   box-shadow: 0 0 1000px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  color: #ffffff; }
+  color: #ffffff;
+  margin: 50px auto; }
   .content div:not(#table-of-contents) h1:not(.title):not(.typing-text),
   .content div:not(#table-of-contents) h2:not(#table-of-contents),
   .content div:not(#table-of-contents) h3,
@@ -65,6 +53,14 @@ body {
     font-size: 12px; }
   .content div:not(#table-of-contents) h6::before {
     font-size: 8px; }
+  .content .title {
+    text-align: center; }
+    .content .title img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      height: auto;
+      box-shadow: none; }
   .content .super-typing-container {
     width: 100%;
     text-align: center; }
@@ -91,14 +87,6 @@ a {
     background-repeat: repeat-x;
     text-decoration: none;
     opacity: 0.85; }
-
-.title {
-  text-align: center; }
-  .title img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto; }
 
 h1,
 h2,

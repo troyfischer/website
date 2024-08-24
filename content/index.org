@@ -7,7 +7,7 @@
 * Welcome
 Hey welcome to my website, it's built using [[https://orgmode.org/][org-mode]], [[https://sass-lang.com/][Sass]], and a little bit of [[https://www.javascript.com/][JS]].
 ** About Me
-Lifestyle influencer cosplaying a software engineer.
+Lifestyle influencer cosplaying as a software engineer.
 
 I attended the University of Florida and received my B.S. in Computer Science
 in 2019. In 2024 I gave up on a CS masters program so I can now also claim the
@@ -15,6 +15,9 @@ title of *#college-dropout*. I currently work for [[https://www.capitalone.com/]
 for you 😉.
 * Software Engineering
 + [[file:neetcode.org][Neetcode Progress]]
++ [[file:posts/emacs/why_i_use_emacs.org][Why I use Emacs]]
+* Miscellaneous
++ [[file:resume.org][Resume]]
 * Travel
 + [[file:travel.org][Where I'm Going]]
 * Movies

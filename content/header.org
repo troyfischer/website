@@ -1,4 +1,4 @@
-#+SETUPFILE: ./themes/org/troy-story.setup
-#+OPTIONS: toc:nil
+#+setupfile: ./themes/org/troy-story.setup
+#+options: toc:nil
 #+include: navigation.org
-#+TOC: headlines 1
+#+toc: headlines 1

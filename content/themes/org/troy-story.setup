@@ -1,8 +1,8 @@
 # -*- mode: org; -*-
-#+HTML_HEAD: <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-#+HTML_HEAD: <link rel="icon" href="themes/images/title/troy_story.ico" type="image/ico" />
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="themes/theme/main.css"/>
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="themes/theme/images.css"/>
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="themes/theme/fontawesome-free-6.0.0-web/css/all.css"/>
-#+HTML_HEAD: <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-#+HTML_HEAD: <script type="text/javascript" src="themes/theme/main.js"></script>
+#+html_head: <link href="https://fonts.googleapis.com/css2?family=montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+#+html_head: <link rel="icon" href="themes/images/title/troy_story.ico" type="image/ico" />
+#+html_head: <link rel="stylesheet" type="text/css" href="themes/theme/main.css"/>
+#+html_head: <link rel="stylesheet" type="text/css" href="themes/theme/images.css"/>
+#+html_head: <link rel="stylesheet" type="text/css" href="themes/theme/fontawesome-free-6.0.0-web/css/all.css"/>
+#+html_head: <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+#+html_head: <script type="text/javascript" src="themes/theme/main.js"></script>
