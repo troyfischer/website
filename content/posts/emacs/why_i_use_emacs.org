@@ -1,6 +1,7 @@
 #+TITLE: Why I Use Emacs
 
 
+
 I work on a computer all day everyday. The work I do involves reading, writing,
 and editing source code. I am not the most talented engineer skill wise so I
 must make up for that in other areas. The area I've chosen is tooling. I
