@@ -1,5 +1,5 @@
 #+include: ./themes/org/macros.org
 
 #+html: <div id="navigation">
-{{{home-link-org}}} @@html:<i class="fa-solid fa-house"></i>@@ | @@html:<a target="_blank" href="https://github.com/troyfischer">Github</a>@@ @@html:<i class="fa-brands fa-github"></i>@@ | [[mailto:troytfischer@gmail.com][Contact Me]] @@html:<i class="fa-solid fa-envelope"></i>@@
+{{{home-link-org}}} @@html:<i class="fa-solid fa-house"></i>@@ | @@html:<a target="_blank" href="https://github.com/troyfischer">Github</a>@@ @@html:<i class="fa-brands fa-github"></i>@@ | [[mailto:troytfischer@gmail.com][Contact Me]] @@html:<i class="fa-solid fa-envelope"></i>@@ | @@html:<button id="theme-toggle" aria-label="Toggle dark mode"><i class="fa-solid fa-moon"></i></button>@@
 #+html: </div>

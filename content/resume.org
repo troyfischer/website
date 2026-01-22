@@ -3,10 +3,19 @@
 #+include: ./header.org
 
 
-Best when viewed on a desktop rather than mobile.
 #+begin_export html
+<!-- Desktop: Show PDF iframe -->
+<div class="resume-desktop">
 <iframe src="themes/resources/resume/resume.pdf#zoom=100" width="100%" height="1100px">
     This browser does not support PDFs. Please download the PDF to view it:
     <a href="themes/resources/resume/resume.pdf">Download PDF</a>.
 </iframe>
+</div>
+
+<!-- Mobile: Show download button -->
+<div class="resume-mobile">
+    <a href="themes/resources/resume/resume.pdf" download class="resume-download-btn">
+        <i class="fa-solid fa-download"></i> Download (PDF)
+    </a>
+</div>
 #+end_export
